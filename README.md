@@ -16,6 +16,7 @@ Linux, since `/bin/ls` requires different parameters on those operating systems.
 In those case, I have renamed them:
 ```
 ls_osx.fish
+ls_ubuntu.fish
 ```
 
 Locally, I symlink the command:
