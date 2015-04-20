@@ -10,8 +10,8 @@ These are my personal functions and customizations for Fish shell.
 Since I use them on more than one operating system, some of them have OS-specific
 varieties.
 
-For instance, the directory listing function 'ls' can't be the same on both OSX and
-Linux, since /bin/ls requires different parameters on those operating systems.
+For instance, the directory listing function `ls` can't be the same on both OSX and
+Linux, since `/bin/ls` requires different parameters on those operating systems.
 
 In that case, I have renamed them:
 `ls_osx.fish`
