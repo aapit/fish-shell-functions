@@ -9,3 +9,7 @@ sw.fish
 voorlinden.fish
 mw.fish
 schoolwijzer.fish
+fish_prompt.fish
+fish_right_prompt.fish
+ls.fish
+lsl.fish
