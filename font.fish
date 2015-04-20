@@ -1,3 +1,4 @@
+# Ubuntu: set font for terminal to (s)mall, (m)edium or (l)arge.
 function font
 	set -l fontpath /usr/share/consolefonts
 	if test "$argv" = "s"
