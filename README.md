@@ -28,6 +28,6 @@ The symlink is in `.gitignore` and is thus free to be changed per OS.
 
 This applies to the following functions:
 * `ls.fish`
-* `lsl.fish`.
+* `lsl.fish`
 * `fish_prompt.fish`
 * `fish_right_prompt.fish`
