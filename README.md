@@ -26,4 +26,8 @@ $ ln -s ls_osx.fish ls.fish
 
 The symlink is in `.gitignore` and is thus free to be changed per OS.
 
-This also goes for `fish_prompt.fish`, `fish_right_prompt.fish` and `lsl.fish`.
+This applies to the following functions:
+* `ls.fish`
+* `lsl.fish`.
+* `fish_prompt.fish`
+* `fish_right_prompt.fish`
