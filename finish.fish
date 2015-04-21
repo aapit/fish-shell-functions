@@ -1,3 +1,4 @@
+# Finish a Git Flow branch with the Golem wrapper
 function finish
 	switch (git-curr-branch-type)
 	case "feature"

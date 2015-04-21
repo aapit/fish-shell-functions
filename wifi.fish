@@ -1,3 +1,4 @@
+# OS: Ubuntu
 function wifi
 	switch (count $argv)
 	case 0
