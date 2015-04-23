@@ -9,5 +9,5 @@ function fish_prompt
 	set -l arrow "$red> "
 	set -l cwd $blue(basename (prompt_pwd))
 
-	echo -n -s $red "MINIM☺NK™ " $normal $cwd $normal '> '
+	echo -n -s $red "["(hostname | tr '[a-z]' '[A-Z]')"] " $normal $cwd $normal '> '
 end
