@@ -1,4 +1,4 @@
 # Simple directory listing (for OSX)
 function ls
-	command ls -shAG1 $argv
+	command ls -hAG1 $argv
 end
