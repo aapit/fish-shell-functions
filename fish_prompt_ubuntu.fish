@@ -7,7 +7,7 @@ function fish_prompt
 	set -l normal (set_color normal)
 
 	set -l arrow "$red> "
-	set -l cwd $blue(basename (prompt_pwd))
+	set -l cwd $blue(basename (command pwd))
 
 	echo -n -s $red "["(hostname | tr '[a-z]' '[A-Z]')"] " $normal $cwd $normal '> '
 end
