@@ -1,3 +1,3 @@
 function gc
-	git commit -S -m $argv
+	git commit -m $argv
 end
