@@ -1,4 +1,3 @@
-# Capistrano: deploy to staging environment
 function csd
-	cap staging deploy
+	cap staging deploy $argv
 end

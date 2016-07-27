@@ -1,4 +1,3 @@
-# Capistrano: deploy to production
 function cpd
-	cap production deploy
+	cap production deploy $argv
 end
