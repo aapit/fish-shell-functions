@@ -37,31 +37,31 @@ This maps straight to your `~/.config/fish/functions` directory.
 * git-curr-branch-type.fish
 * git-push-upstream.fish
 * gl.fish
-* glg.fish Git pull Garp repository
+* glg.fish                  Git pull Garp repository
 * golem.fish
 * gp.fish
-* gpg-init.fish Initialize GPG agent
-* gs.fish Git status
-* hotfix.fish Start Git flow hotfix branch
-* light.fish Light terminal theme
+* gpg-init.fish             Initialize GPG agent
+* gs.fish                   Git status
+* hotfix.fish               Start Git flow hotfix branch
+* light.fish                Light terminal theme
 * ls.fish
 * ls_osx.fish
 * ls_ubuntu.fish
 * lsl.fish
 * lsl_osx.fish
 * lsl_ubuntu.fish
-* master.fish Switch to master branch
+* master.fish               Switch to master branch
 * mongo-start.fish
-* mount-external-buffer.fish
-* mount-sdcard.fish
-* mount-small-buffer.fish
+* mount-external-buffer
+* mount-sdcard
+* mount-small-buffer
 * mw.fish
-* nvm.fish Node version manager
-* release.fish Start Git flow release branch
+* nvm.fish                  Node version manager
+* release.fish              Start Git flow release branch
 * scaffold.fish
-* sites.fish Change dir to OSX Sites dir
-* src.fish Source Fish config file
-* sudo.fish Sudo wrapper, enables 'sudo !!' in Fish
+* sites.fish                Change dir to OSX Sites dir
+* src.fish                  Source Fish config file
+* sudo.fish                 Sudo wrapper, enables 'sudo !!' in Fish
 * wifi.fish
 ```
 
