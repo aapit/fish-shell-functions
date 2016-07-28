@@ -6,24 +6,26 @@ Various functions for [Fish shell](http://fishshell.com/).
 This maps straight to your `~/.config/fish/functions` directory.
 
 ## Index
-* bass.fish Source bash files in Fish
-* battery.fish Display battery level on linux
-* config.fish
-* cpd.fish Capistrano deploy to production
-* csd.fish Capistrano deploy to staging
-* dark.fish Dark terminal theme
-* desk.fish Change dir to OSX Desktop
-* dev.fish Change to develop branch
-* dock.fish Execute a command in a Docker Garp web instance
-* ec2.fish Connect to an ec2 instance
-* feature.fish Start Git flow feature branch
-* finish.fish Finish Git flow branch
-* fish_prompt.fish
-* fish_prompt_osx.fish
-* fish_prompt_ubuntu.fish
-* fish_right_prompt.fish
-* fish_right_prompt_osx.fish
-* fish_right_prompt_ubuntu.fish
+```
+* bass                      Source bash files in Fish
+* battery                   Display battery level on linux
+* config
+* cpd                       Capistrano deploy to production
+* csd                       Capistrano deploy to staging
+* dark                      Dark terminal theme
+* desk                      Change dir to OSX Desktop
+* dev                       Change to develop branch
+* dock                      Execute a command in a Docker
+                            Garp web instance
+* ec2                       Connect to an ec2 instance
+* feature                   Start Git flow feature branch
+* finish                    Finish Git flow branch
+* fish_prompt
+* fish_prompt_osx
+* fish_prompt_ubuntu
+* fish_right_prompth
+* fish_right_prompt_osx
+* fish_right_prompt_ubuntu
 * font.fish
 * fundle.fish
 * g.fish
@@ -61,6 +63,7 @@ This maps straight to your `~/.config/fish/functions` directory.
 * src.fish Source Fish config file
 * sudo.fish Sudo wrapper, enables 'sudo !!' in Fish
 * wifi.fish
+```
 
 ## OS-specifics
 These are my personal functions and customizations for Fish shell.
