@@ -6,7 +6,7 @@ function gpg-init
               and kill -0 (cut -d : -f 2 ~/.gnupg/.gpg-agent-info) ^/dev/null
     end
          # no, it is not running. Start it!
-        killall gpg-agent; and
+        killall gpg-agent
         gpg-agent --daemon --no-grab \
             --write-env-file ~/.gnupg/.gpg-agent-info \
             >/dev/null ^&1
