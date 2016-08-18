@@ -1,12 +1,12 @@
-# Initializes GPG agent on OSX, for signing Git commits, etc.
 function gpg-init
-    if not begin
+	if not begin
         # Is the agent running already? Does the agent-info file exist, and if so,
         # is there a process with the pid given in the file?
         [ -f ~/.gnupg/.gpg-agent-info ]
               and kill -0 (cut -d : -f 2 ~/.gnupg/.gpg-agent-info) ^/dev/null
     end
          # no, it is not running. Start it!
+        killall gpg-agent; and
         gpg-agent --daemon --no-grab \
             --write-env-file ~/.gnupg/.gpg-agent-info \
             >/dev/null ^&1
