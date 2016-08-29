@@ -15,8 +15,6 @@ This maps straight to your `~/.config/fish/functions` directory.
 * dark                      Dark terminal theme
 * desk                      Change dir to OSX Desktop
 * dev                       Change to develop branch
-* dock                      Execute a command in a Docker
-                            Garp web instance
 * ec2                       Connect to an ec2 instance
 * feature                   Start Git flow feature branch
 * finish                    Finish Git flow branch
