@@ -1,4 +1,9 @@
 function loaddotenv
+	# @author David Spreekmeester <david@grrr.nl>
+    # Partially based on code by
+    # Michael Lewandowski
+    # http://lewandowski.io/2016/10/fish-env/
+
 	if test -z $argv
         set argv '.env'
     end
