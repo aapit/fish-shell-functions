@@ -4,7 +4,7 @@ function loaddotenv
     # Michael Lewandowski
     # http://lewandowski.io/2016/10/fish-env/
 
-	if test -z $argv
+    if test -z $argv
         set argv '.env'
     end
 
@@ -15,7 +15,7 @@ function loaddotenv
         return 1
     end
 
-	for i in (cat $argv)
+    for i in (cat $argv)
         set arr (echo $i |tr = \n)
         if [ (string sub -l 1 $i) = "#" ]
             continue
